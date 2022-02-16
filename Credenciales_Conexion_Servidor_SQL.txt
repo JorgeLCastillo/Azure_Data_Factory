@@ -1,0 +1,8 @@
+Cuenta Azure: miusb01@outlook.com  (100 USD)  =>  Feb-14-2022
+
+Database name: sqldb-cursoudemy
+Server:        sql-cursoudemy
+
+** Datos para conectar al Server de SQL:
+usuario admin:  Jorge
+clave:          Admin1234*            

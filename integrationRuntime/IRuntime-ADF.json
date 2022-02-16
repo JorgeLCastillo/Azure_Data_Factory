@@ -1,0 +1,6 @@
+{
+	"name": "IRuntime-ADF",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

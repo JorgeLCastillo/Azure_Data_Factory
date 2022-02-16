@@ -1,0 +1,17 @@
+{
+	"name": "LS_Local_Carpeta",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "D:\\ESTUDIO\\Curso_Udemy_DataFactory_Luis_Santana",
+			"userId": "jcastillo",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIwYjUwNWU5ZC0xMTgzLTQ1NjgtOWRmMS01NmM3N2I5MzNhNGQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IRuntime-ADF",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

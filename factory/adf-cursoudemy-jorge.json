@@ -1,0 +1,9 @@
+{
+	"name": "adf-cursoudemy-jorge",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "de91b898-ada6-40b4-927c-756d0c3f97a1",
+		"tenantId": "f3537cff-c1af-4185-bfb0-f08c324ef769"
+	}
+}

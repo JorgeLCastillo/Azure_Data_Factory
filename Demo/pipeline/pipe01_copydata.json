@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "excel_to_csv",
+				"name": "excel_para_csv",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {

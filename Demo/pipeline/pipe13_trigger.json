@@ -1,0 +1,22 @@
+{
+	"name": "pipe13_trigger",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 3
+				}
+			}
+		],
+		"folder": {
+			"name": "Lab_03"
+		},
+		"annotations": [],
+		"lastPublishTime": "2022-02-19T04:36:32Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

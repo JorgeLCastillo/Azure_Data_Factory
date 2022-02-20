@@ -1,0 +1,66 @@
+{
+	"name": "practica_04",
+	"properties": {
+		"activities": [
+			{
+				"name": "exec_practica_01",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "practica_01",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			},
+			{
+				"name": "exec_practica_02",
+				"type": "ExecutePipeline",
+				"dependsOn": [
+					{
+						"activity": "exec_practica_01",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "practica_02",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			},
+			{
+				"name": "exec_practica_03",
+				"type": "ExecutePipeline",
+				"dependsOn": [
+					{
+						"activity": "exec_practica_02",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "practica_03",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			}
+		],
+		"folder": {
+			"name": "Practicas"
+		},
+		"annotations": [],
+		"lastPublishTime": "2022-02-19T04:30:15Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

@@ -154,10 +154,10 @@
 			}
 		],
 		"folder": {
-			"name": "adf_03_handson01"
+			"name": "Practicas"
 		},
 		"annotations": [],
-		"lastPublishTime": "2022-02-15T10:58:53Z"
+		"lastPublishTime": "2022-02-19T04:30:14Z"
 	},
 	"type": "Microsoft.DataFactory/factories/pipelines"
 }
